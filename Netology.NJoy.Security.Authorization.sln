@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netology.NJoy.Security.Authorization", "Netology.NJoy.Security.Authorization\Netology.NJoy.Security.Authorization.csproj", "{07857810-0F7B-4AE0-9A21-E0E36233DE92}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\Netology.NJoy.Security.Authorization.WebUI\", "Netology.NJoy.Security.Authorization.WebUI\", "{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Netology.NJoy.Security.Authorization.WebUI"
+		Debug.AspNetCompiler.PhysicalPath = "Netology.NJoy.Security.Authorization.WebUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Netology.NJoy.Security.Authorization.WebUI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Netology.NJoy.Security.Authorization.WebUI"
+		Release.AspNetCompiler.PhysicalPath = "Netology.NJoy.Security.Authorization.WebUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Netology.NJoy.Security.Authorization.WebUI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1100"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Release|.NET.ActiveCfg = Release|Any CPU
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{07857810-0F7B-4AE0-9A21-E0E36233DE92}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Debug|.NET.ActiveCfg = Debug|.NET
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Debug|.NET.Build.0 = Debug|.NET
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Release|.NET.ActiveCfg = Debug|.NET
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Release|.NET.Build.0 = Debug|.NET
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{1DA7DB6E-6F43-4D8C-88C7-7B452870D2BF}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

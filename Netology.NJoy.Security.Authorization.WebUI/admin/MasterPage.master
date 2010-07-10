@@ -1,0 +1,21 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/admin/MasterPage.master.cs" Inherits="admin_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:HyperLink ID="UserHyperLink" runat="server" Text="Kullanýcý Yönetimi" NavigateUrl="~/admin/UserManagement.aspx"></asp:HyperLink> | 
+        <asp:HyperLink ID="HyperLink1" runat="server" Text="Rol Yönetimi" NavigateUrl="~/admin/RoleManagement.aspx"></asp:HyperLink>
+        <asp:LoginStatus ID="LoginStatus1" runat="server" />
+        <hr />
+        <asp:contentplaceholder id="MainPlaceHolder" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>
